@@ -1,4 +1,2 @@
-package PACKAGE_NAME;
-
-public class Titulo {
+public record Titulo(String titulo,String autor, Editora editora) {
 }

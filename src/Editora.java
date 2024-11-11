@@ -1,4 +1,2 @@
-package PACKAGE_NAME;
-
-public class Editora {
+public record Editora (String nome, String cidade){
 }
